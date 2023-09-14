@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 50px;
+  background-color: rgb(198, 167, 227);
+}
+
+.input {
+  width: 450px;
+  height: 30px;
+  font-size: 1rem;
+}
+
+.add-btn {
+  width: 85px;
+  height: 35px;
+  margin: 0 10px;
+  border-radius: 3px;
+  background-color: rgb(205, 112, 236);
+  font-size: 1rem;
+}

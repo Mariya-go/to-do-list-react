@@ -1,0 +1,38 @@
+.task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(235, 216, 239);
+}
+
+.list-item {
+  text-align: left;
+  width: 400px;
+  line-height: 50px;
+
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
+.check {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(151, 135, 214);
+  font-size: 1rem;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.delete {
+  width: 70px;
+  height: 30px;
+  background-color: rgb(217, 130, 192);
+  font-size: 1rem;
+  border-radius: 3px;
+}
+
+.checked {
+  text-decoration: line-through;
+}
